@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome Back!</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome Back</h2>
+    <form action="process_login.php" method="POST">
+      <div class="form-group">
+        <label for="account">Account:</label>
+        <input type="text" id="account"placeholder="Username or Email" name="account" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Your Password"name="password" required>
+      </div>
+      
+      <div class="form-group">
+        <input type="submit" value="Sign In">
+      </div>
+      
+      <p class="forgot-password"><a href="reset_password.html">Forgot your password?</a></p>
+      
+      <p class="sign-up-link">Don't have an account? <a href="register.html">Sign Up</a></p>
+    </form>
+  </div>
+  
+</body>
+</html>
